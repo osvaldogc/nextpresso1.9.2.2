@@ -8,27 +8,27 @@
 		<configurationFile>/home/ograna/SOFTWARE/fastq_screen_v0.11.4/fastq_screen.conf</configurationFile>
 		<subset>10000</subset>
 	</fastQScreen>
-	<bedtoolsPath>/home/ograna/SOFTWARE/BEDtools/bedtools-2.17.0/bin</bedtoolsPath>	
-	<samtoolsPath>/home/ograna/SOFTWARE/SAMtools/samtools-0.1.19</samtoolsPath>	
-	<bowtiePath>/home/ograna/SOFTWARE/Bowtie/bowtie-1.0.0</bowtiePath>
-	<tophatPath>/home/ograna/SOFTWARE/Tophat/tophat-2.0.10.Linux_x86_64</tophatPath>
+	<bedtoolsPath>/home/ograna/SOFTWARE/bedtools_2.23.0/bin</bedtoolsPath>	
+	<samtoolsPath>/home/ograna/SOFTWARE/samtools-0.1.19</samtoolsPath>	
+	<bowtiePath>/home/ograna/SOFTWARE/bowtie-1.0.0</bowtiePath>
+	<tophatPath>/home/ograna/SOFTWARE/TopHat/tophat-2.0.10.Linux_x86_64</tophatPath>
 	<seqtk>
 		<path>/home/ograna/SOFTWARE/seqtk/seqtk-master</path>
 		<maximunNumberOfInstancesForDownSampling>1</maximunNumberOfInstancesForDownSampling>
 	</seqtk>
-	<peakAnnotatorPath>/home/ograna/SOFTWARE/PeakAnnotator/modified_PeakAnnotator</peakAnnotatorPath>
+	<peakAnnotatorPath>/home/ograna/SOFTWARE/peakAnalyzer/modified_PeakAnnotator/</peakAnnotatorPath>
 	<htseqCount>
-		<path>/home/ograna/SOFTWARE/HTSeq/HTSeq-0.6.1/build/scripts-2.7</path>		
-		<pythonpath>/home/ograna/SOFTWARE/HTSeq/HTSeq-0.6.1/build/scripts-2.7:/home/ograna/SOFTWARE/HTSeq/HTSeq-0.6.1/build/lib.linux-x86_64-2.7</pythonpath>
+		<path>/home/ograna/SOFTWARE/HTSeq-0.5.3p9/build/scripts-2.7</path>		
+		<pythonpath>/home/ograna/SOFTWARE/HTSeq-0.5.3p9/build/scripts-2.7:/home/ograna/SOFTWARE/HTSeq-0.5.3p9/build/lib.linux-x86_64-2.7</pythonpath>
 	</htseqCount>
 	<tophatFusion>
-		<path>/home/ograna/SOFTWARE/Tophat/tophat-2.0.10.Linux_x86_64</path>
+		<path>/home/ograna/SOFTWARE/TopHat/tophat-2.0.10.Linux_x86_64</path>
 	</tophatFusion>
 	<cufflinks>
-		<path>/home/ograna/SOFTWARE/Cufflinks/cufflinks-2.2.1.Linux_x86_64</path>
+		<path>/home/ograna/SOFTWARE/cufflinks-2.2.1.Linux_x86_64</path>
 	</cufflinks>
 	<bedGraphToBigWig>
-		<path>/home/ograna/SOFTWARE</path>
+		<path>/home/ograna/SOFTWARE/bedGraphToBigWig</path>
 	</bedGraphToBigWig>
 	<gsea>
 		<path>/home/ograna/SOFTWARE/GSEA/gsea2-2.2.2.jar</path>
